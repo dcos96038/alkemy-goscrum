@@ -1,4 +1,5 @@
 import {Field, Form, Formik} from "formik";
+import {Link} from "react-router-dom";
 import * as Yup from "yup";
 
 import AuthLayout from "../../components/AuthLayout";
@@ -73,7 +74,9 @@ const LoginScreen = () => {
           </Form>
         )}
       </Formik>
-      <p className="font-medium">Registrarme</p>
+      <Link className="font-medium" to="/auth/register">
+        Registrarme
+      </Link>
     </AuthLayout>
   );
 };

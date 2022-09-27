@@ -1,5 +1,6 @@
 import {Field, Form, Formik} from "formik";
 import {useState} from "react";
+import {Link} from "react-router-dom";
 import Switch from "react-switch";
 import * as Yup from "yup";
 
@@ -220,7 +221,9 @@ const RegisterScreen = () => {
           </Form>
         )}
       </Formik>
-      <p className="font-medium">Ir a Iniciar sesion</p>
+      <Link className="font-medium" to="/auth">
+        Ir a Iniciar sesion
+      </Link>
     </AuthLayout>
   );
 };
