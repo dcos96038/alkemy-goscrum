@@ -1,11 +1,9 @@
 import AppRouter from "./router/AppRouter";
+import GoScrumApp from "./screens/GoScrum/GoScrumApp";
 
 function App() {
-  return (
-    <div className="sm:bg-bg-primary min-h-screen">
-      <AppRouter />
-    </div>
-  );
+  // return <AppRouter />;
+  return <GoScrumApp />;
 }
 
 export default App;

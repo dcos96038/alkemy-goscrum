@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import Switch from "react-switch";
 import * as Yup from "yup";
 
-import AuthLayout from "../../components/AuthLayout";
+import AuthLayout from "../../components/Auth/AuthLayout";
 
 const initialValues = {
   username: "",

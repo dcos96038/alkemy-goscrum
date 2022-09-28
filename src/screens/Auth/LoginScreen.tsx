@@ -2,7 +2,7 @@ import {Field, Form, Formik} from "formik";
 import {Link} from "react-router-dom";
 import * as Yup from "yup";
 
-import AuthLayout from "../../components/AuthLayout";
+import AuthLayout from "../../components/Auth/AuthLayout";
 
 interface FormValues {
   username: string;
